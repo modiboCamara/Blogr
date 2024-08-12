@@ -1,0 +1,27 @@
+:root {
+  /* colors */
+
+  /* primary */
+  --clr-cta-text: hsl(356, 100%, 66%);
+  --clr-cta-hover-bg: hsl(355, 100%, 74%);
+  --clr-headings: hsl(208, 49%, 24%);
+
+  /* Neutral */
+
+  --clr-text: hsl(0, 0%, 100%);
+  --clr-footer-text: hsl(240, 2%, 79%);
+  --clr-body-copy: hsl(207, 13%, 34%);
+  --clr-footer-bg: hsl(240, 10%, 16%);
+
+  /* Gradient */
+
+  /* Background gradient - Intro/CTA mobile nav: */
+
+  --clr-very-light-red: hsl(13, 100%, 72%);
+  --clr-light-red: hsl(353, 100%, 62%);
+
+  /* Background gradient - body: */
+
+  --clr-very-dark-grey: hsl(237, 17%, 21%);
+  --clr-desaturated-blue: hsl(237, 23%, 32%);
+}

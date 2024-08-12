@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <meta
+      name="description"
+      content="A modern publishing platform for building and growing your online brand."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Frontend Mentor | [Blogr]</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav" aria-label="Main Navigation">
+          <div class="nav-right">
+            <a href="#" class="logo">
+              <img src="./images/logo.svg" alt="" srcset="" />
+            </a>
+            <ul class="nav-list">
+              <li class="nav-list-item">
+                Product
+                <span class="arrow">
+                  <img
+                    src="./images/icon-arrow-light.svg"
+                    alt="dropdown arrow"
+                  />
+                </span>
+              </li>
+              <li class="nav-list-item">
+                Company
+                <img src="./images/icon-arrow-light.svg" alt="dropdown arrow" />
+              </li>
+              <li class="nav-list-item">
+                Connect
+                <img src="./images/icon-arrow-light.svg" alt="dropdown arrow" />
+                <ul class="sublist">
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Newsletter</a></li>
+                  <li><a href="#">LinkedIn</a></li>
+                </ul>
+              </li>
+              <div class="button-container mobile-login">
+                <button class="btn btn-text">Login</button>
+                <button class="btn btn-primary">Sign up</button>
+              </div>
+            </ul>
+          </div>
+          <div class="button-container desktop-login">
+            <button class="btn btn-text">Login</button>
+            <button class="btn btn-primary">Sign up</button>
+          </div>
+          <button
+            class="hamburger btn is-closed"
+            aria-expanded="false"
+            aria-controls="menu"
+            id="hamburger"
+          >
+            <img
+              src="./images/icon-hamburger.svg"
+              alt="hamburger menu"
+              class="open-icon"
+            />
+            <img
+              src="./images/icon-close.svg"
+              alt="hamburger close"
+              class="close-icon"
+            />
+          </button>
+        </nav>
+
+        <div class="hero-text">
+          <h3 class="heading-primary">A modern publishing platform</h3>
+          <p>Grow your audience and build your online brand</p>
+
+          <div class="hero-btn">
+            <button class="btn btn-primary">Start for free</button>
+            <button class="btn btn-outline">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="designed-for">
+      <h3 class="heading-secondary">Designed for the future</h3>
+      <div class="row">
+        <div class="col-6">
+          <div class="col-section">
+            <h4 class="heading-tertiary">Introducing an extensible editor</h4>
+            <p class="col-section-paragraphe">
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+          </div>
+
+          <div class="col-section">
+            <h4 class="heading-tertiary">Robust content management</h4>
+            <p class="col-section-paragraphe">
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </div>
+        </div>
+        <div class="col-6">
+          <picture class="section-img">
+            <source
+              media="(min-width: 960px )"
+              srcset="./images/illustration-editor-desktop.svg"
+            />
+
+            <source srcset="./images/illustration-editor-mobile.svg" />
+            <img
+              src="./images/illustration-editor-desktop.svg"
+              alt="desktop image"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-infrastructure">
+      <div class="container">
+        <div class="row row-gap-6x">
+          <div class="col-6">
+            <img
+              class="phone-img"
+              src="./images/illustration-phones.svg"
+              alt="illustration phones"
+            />
+          </div>
+          <div class="col-6 section-text">
+            <p class="text-heading">State of the Art Infrastructure</p>
+            <p class="section-desc">
+              With reliability and speed in mind, worldwide data centers provide
+              the backbone for ultra-fast connectivity. This ensures your site
+              will load instantly, no matter where your readers are, keeping
+              your site competitive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section -->
+
+    <section class="services">
+      <div class="row">
+        <div class="col-6">
+          <picture class="section-img">
+            <source
+              media="(min-width: 960px )"
+              srcset="./images/illustration-laptop-desktop.svg"
+            />
+
+            <source srcset="./images/illustration-laptop-mobile.svg" />
+            <img
+              src="./images/illustration-laptop-desktop.svg"
+              alt="desktop image"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+
+        <div class="col-6">
+          <div class="col-section">
+            <h4 class="heading-tertiary">Free, open, simple</h4>
+            <p class="col-section-paragraphe">
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+
+          <div class="col-section">
+            <h4 class="heading-tertiary">Powerful tooling</h4>
+            <p class="col-section-paragraphe">
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <a href="#" class="logo">
+            <img src="./images/logo.svg" alt="footer logo" />
+          </a>
+          <div class="footer-nav">
+            <h3 class="footer-header">Product</h3>
+            <ul class="footer-list">
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Marketplace</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Integrations</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav">
+            <h3 class="footer-header">Company</h3>
+            <ul class="footer-list">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav">
+            <h3 class="footer-header">Contact</h3>
+            <ul class="footer-list">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Linkedin</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--   
+     Product Overview Pricing
+    Marketplace Features Integrations Company About Team Blog Careers Connect
+    Contact Newsletter LinkedIn
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script defer src="./script/script.js"></script>
+  </body>
+</html>
